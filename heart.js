@@ -36,7 +36,7 @@ async function startArus() {
     const arus = arusConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Mizuhara','Safari','1.0.0'],
+        browser: ['Elaina','Safari','1.0.0'],
         auth: state,
         version: getVersionWaweb() || [2, 2204, 13]
     })
