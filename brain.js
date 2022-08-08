@@ -293,7 +293,7 @@ const inf=`❁ ════ ❃•💙 *Elaina* 💙•❃ ════ ❁
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 
 ❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM ARUS\`\`\`
+\`\`\`This bot is a free open source project by Lord Savage\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
 *_LINK:- https://github.com/union-savage/Mizuhara_*
@@ -317,40 +317,40 @@ case 'mods':
 const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
 
 #1
-💥 *Username: Pratyush*
-🍁 *Contact: https://wa.me/+918231033230*
+💥 *Username: Lord-Savage*
+🍁 *Contact: https://wa.me/+263716564623*
 
 #2
-💥 *Username: ZyXilf*
-🍂 *Contact: https://wa.me/+918709022955*
+💥 *Username: Seekay*
+🍂 *Contact: https://wa.me/+263719288644*
 
 #3
-💥 *Username: Tomioka*
-🍁 *Contact: https://wa.me/+917003213983*
+💥 *Username: Lord-Savage*
+🍁 *Contact: https://wa.me/+263787825468*
 
 #4
-💥 *Username: Death*
-🍁 *Contact: https://wa.me/+917604016334*
+💥 *Username: Candy*
+🍁 *Contact: https://wa.me/+263716928420*
 
 #5
-💥 *Username: Arin*
-🍁 *Contact: https://wa.me/+919330880626*
+💥 *Username: Offset-hacker*
+🍁 *Contact: https://wa.me/+26371656262*
 
 #6
 💥 *Username: Manish*
-🍁 *Contact: https://wa.me/+919330880626*
+🍁 *Contact: https://wa.me/+263716564623*
 
 
-━━━━°❀•°:🤍 *MIZUHARA* 🤍:°•❀°━━━━`
+━━━━°❀•°:🤍 *Elaina* 🤍:°•❀°━━━━`
 const mbut = [
-{buttonId: '=creator', buttonText: {displayText: '🎋 Creator'}, type: 1},
-{buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=creator', buttonText: {displayText: '🎀 Creator'}, type: 1},
+{buttonId: '=help', buttonText: {displayText: '🎊 Help'}, type: 1},
+{buttonId: '=mods', buttonText: {displayText: '💙 Lord Savage'}, type: 1}
 ]
 let buttonMessagem = {
-        image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
+        image: { url: "https://telegra.ph/file/1dc852f63c4e80525aaf7.jpg" },
         caption: mod,
-        footer: '©MIZUHARA~ARUS',
+        footer: '©Elaina',
         buttons: mbut,
         headerType: 4
     }
@@ -466,7 +466,7 @@ const buttonsd = [
 let buttonMessage = {
         image: { url: pfp },
         caption: profile,
-        footer: '©MIZUHARA~ARUS',
+        footer: '©Elaina',
         buttons: buttonsd,
         headerType: 4
     }
@@ -716,7 +716,7 @@ case  'play': case 'ytplay': {
 📓 Channel : ${anu.author.url}
 🎬 Description : ${anu.description}
 🌐 Url : ${anu.url}`,
-        footer: '©MIZUHARA~Arus',
+        footer: '©Elaina',
         buttons: buttons,
         headerType: 4
     }
@@ -792,7 +792,7 @@ case 'gimage':case 'image': {
                     caption: `
 💥 *Query* : ${text}
 `,
-                    footer: '©MIZUHARA~Arus',
+                    footer: '©Elaina',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -843,7 +843,7 @@ case 'neko':
       let buttonssMessage = {
        image: {url:waifud.data.url},
        caption:  `*Here is your 🐱Neko*`,
-      footer: '©MIZUHARA~Arus',
+      footer: '©Elaina',
       buttons: wbutsss,
       headerType: 4
       }
@@ -863,7 +863,7 @@ case 'kemonomimi':
       let buttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `*Here You Go...*`,
-      footer: '©MIZUHARA~Arus',
+      footer: '©Elaina',
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -966,7 +966,7 @@ var walb = [
       let wal = {
        image: {url:wallpaper[i].image},
        caption: `*Query :* ${q}`,
-      footer: '©MIZUHARA~Arus',
+      footer: '©Elaina',
       buttons: walb,
       headerType: 4
       }     
@@ -982,7 +982,7 @@ arus.sendMessage(m.chat,{text:`Baka!! Try using the commands from help list`},{q
 
     } catch (err) {
         const time = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
-        arus.sendMessage("120363041582995306@g.us",{text:`*Time:* ${time}\n\n`+`*ERROR:* ${util.format(err)}`})
+        arus.sendMessage("263716564623-1628429288@g.us",{text:`*Time:* ${time}\n\n`+`*ERROR:* ${util.format(err)}`})
     
     }
 }
