@@ -33,6 +33,12 @@
             "required": true,
             "value": "="
         },
+
+    "MONGODB": {
+
+      "description": "A secret String for Mongodb Connection.(Required)"
+
+    },
         "NAME": {
             "description": "Name of the bot.",
             "required": true,
