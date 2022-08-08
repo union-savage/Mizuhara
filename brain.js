@@ -163,13 +163,13 @@ case '':
 
 
     const dbut = [
-{buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=help', buttonText: {displayText: '🎊 Help'}, type: 1},
+{buttonId: '=mods', buttonText: {displayText: '🕊️ Savage Team'}, type: 1}
 ]
 let buttonMessaged = {
-        image: {url:"https://telegra.ph/file/645707c1698c8a9515953.jpg"},
+        image: {url:"https://telegra.ph/file/1dc852f63c4e80525aaf7.jpg"},
         caption: `*DID YOU MEAN =help ?*`,
-        footer: '©MIZUHARA~ARUS',
+        footer: '©Elaina~Savage',
         buttons: dbut,
         headerType: 4
     }
@@ -181,7 +181,7 @@ let buttonMessaged = {
 
 case 'help':
 const hlp=
-` *U^I^U ♡ Konichiwa ${pushname} Senpai, I'm Mizuhara*
+` *U^I^U ♡ Konichiwa ${pushname} Senpai, I'm Elaina*
 
 🎋 \`\`\`Here are my listed commands, Have fun in using them:-\`\`\`
 
@@ -274,18 +274,18 @@ const hlp=
 🎯 image\`\`\`
 
 
- 🍁 *©Powered by Arus* 🍁`
+ 🍁 *©Powered by Lord Savage 🕊️* 🍁`
            arus.sendMessage(m.chat,{video:fs.readFileSync('./src/help.mp4'),gifPlayback:true,caption:hlp},{quoted:m})
 break
 
 case 'info':
 
 const ibut = [
-{buttonId: '=profile', buttonText: {displayText: '🎋 Profile'}, type: 1},
-{buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=profile', buttonText: {displayText: '💙 Profile'}, type: 1},
+{buttonId: '=help', buttonText: {displayText: '🎊 Help'}, type: 1},
+{buttonId: '=mods', buttonText: {displayText: '🕊️ Savagw Team'}, type: 1}
 ]
-const inf=`❁ ════ ❃•💙 *MIZUHARA* 💙•❃ ════ ❁
+const inf=`❁ ════ ❃•💙 *Elaina* 💙•❃ ════ ❁
 
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
 
@@ -296,16 +296,16 @@ const inf=`❁ ════ ❃•💙 *MIZUHARA* 💙•❃ ════ ❁
 \`\`\`This bot is a free open source project by THE TEAM ARUS\`\`\`
 
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/Arus-Bots/Mizuhara_*
+*_LINK:- https://github.com/union-savage/Mizuhara_*
 
 
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing =owner or =mods\`\`\` 
 `
 let buttonMessagei = {
-        image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
+        image: { url: "https://telegra.ph/file/5fd6477b4db45d45faa25.jpg" },
         caption: inf,
-        footer: '©MIZUHARA~ARUS',
+        footer: '©Elaina~Savage',
         buttons: ibut,
         headerType: 4
     }
